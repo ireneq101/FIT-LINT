@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@import "tailwindcss";
+
+body {
+  background: #000323;
+}
+
+text-color {
+  color: white
+}
+
+letter-capital {
+  text-transform: capitalize;
+}
+
+button {
+  border-radius: 10px;
+  background: #41b945;
+  color: white;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 500;
+  font-style: normal;
+  padding: 0.5rem 1rem;
+}
+
+care-gradient {
+  fill: linear-gradient(180deg, #05093C 50.6%, #060E69 100%);
+}
