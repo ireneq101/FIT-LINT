@@ -6,13 +6,13 @@ import {close, menu} from '../assets';
 import style from "../styles";
 import { Navlinks } from '../constants';
 import SignUpModal from "./SignUpModal";
-import LogInModal from "./LogInModal";
+// import LogInModal from "./LogInModal";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   // const navLinks = ['HOME', 'ABOUT', 'ACTIVITY', 'TEAM', 'LOGIN'];
   return (
-    <nav className="flex items-center w-full pt-3 justify-between px-8 py-4 font-sans">
+    <nav className="flex items-center w-full pt-3 justify-between py-4 font-sans">
       <div>
         <img className="h-auto w-20 md:w-26" src={Navlogo} alt="Fit-Lint Logo" />
       </div>
