@@ -3,20 +3,22 @@ import {Navbar, Hero, Journey, About, Routine, Activities, Team, Footer } from '
 import style from './styles';
 
 function App() {
-  <div className="bg-blue-950 w-full overflow-hidden">
-    <div className={`${style.flexCenter} ${style.paddingX}`}>
-      <div className={`${style.boxWidth}`}>
-        <Navbar />
+  return (
+    <div className={`text-white w-full overflow-hidden ${style.paddingX}`}>
+      <div className={`${style.flexCenter}`}>
+        <div className={`${style.boxWidth}`}>
+          <Navbar />
+        </div>
       </div>
+      <Hero />
+      <Journey />
+      <About />
+      <Routine />
+      <Activities />
+      <Team />
+      <Footer />
     </div>
-    <Hero />,
-    <Journey />,
-    <About />,
-    <Routine />,
-    <Activities />,
-    <Team />,
-    <Footer />
-  </div>;
+  );
 }
 
 export default App;

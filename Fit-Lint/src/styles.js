@@ -2,17 +2,18 @@ const style = {
   boxWidth: "xl:max-w-[1280px] w-full",
 
   heading:
-    "font-poppins font-semibold xs:text-[35px] text-[29px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+    "font-big-shoulders font-semibold xs:text-[35px] text-[29px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
 
   heading2:
-    "font-poppins font-semibold xs:text-[29px] text-[25px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+    "font-big-shoulders font-semibold xs:text-[29px] text-[25px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
 
-  paragraph: "font-poppins font-semibold xs:text-[26px] text-[18px] text-white",
+  paragraph: "font-big-shoulders font-semibold xs:text-[26px] text-[18px] text-white",
 
-  button: "font-poppins font-normal xs:text-[20px] text-[16px]",
+  button: "font-big-shoulders font-normal xs:text-[20px] text-[16px]",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
+  flexEnd: "flex justify-end gap-12",
 
   paddingY: "sm:py-16 py-6",
   paddingX: "sm:px-16 px-6",

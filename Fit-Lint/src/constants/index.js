@@ -1,3 +1,5 @@
+import Button from "../components/Button";
+
 import {
   biker,
   facebook,
@@ -14,7 +16,7 @@ import {
   check
 } from "../assets";
 
-const Navlinks = [
+export const Navlinks = [
   {
     id: "home",
     title: "Home",
@@ -35,15 +37,15 @@ const Navlinks = [
     title: "Team",
   },
 
-  {
-    id: "login",
-    title: "Login",
-  },
+  // {
+  //   id: "login",
+  //   title: "Login",
+  // },
 
-  {
-    id: "signup",
-    title: "Sign-up",
-  },
+  // {
+  //   id: "signup",
+  //   title: "Sign Up",
+  // }
 ];
 
 export const WithFitLint = [
@@ -72,40 +74,50 @@ export const WithFitLint = [
   },
 ];
 
-export const Routine = [
+export const Routines = [
   {
+    id: 1,
     title: "Walking",
     description: "Track your steps",
     value: "5,000 steps",
-    image: { walking },
+    image:  walking ,
+    visible: true
   },
 
   {
+    id: 2,
     title: "Running",
     description: "Set your target",
     value: "7,000",
-    image: { ruuner },
+    image: ruuner,
+    visible: true
   },
 
   {
+    id: 3,
     title: "Bike",
     description: "How fast can you go?",
     value: "5,000",
-    image: { biker },
+    image: biker,
+    visible: true
   },
 
   {
+      id: 4,
     title: "Swimming",
     description: "Beat your current score",
     value: "150 minutes",
-    image: { swimmer },
+    image: swimmer,
+    visible: false
   },
 
   {
+    id: 5,
     title: "Food",
     description: "Nutrition tailored for your lifestyle",
     value: "220 calories",
-    image: { food },
+    image: food,
+    visible: false
   },
 ];
 
@@ -114,6 +126,7 @@ export const FooterLinks = [
     title: "fit-Lint",
     links: [
       {
+        id: "about",
         name: "About",
         link: "",
       },
@@ -169,4 +182,3 @@ export const SocialLinks = [
   },
 ];
 
-export default Navlinks
