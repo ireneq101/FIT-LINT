@@ -52,13 +52,13 @@ export const WithFitLint = [
   {
     id: 1,
     icon: { check },
-    title: "Achieve consistent progress with small daily actions.",
+    title: "Get personalized workout plans tailored to your goals and fitness level.",
   },
 
   {
     id: 2,
     icon: { check },
-    title: "Turn big ambitions into manageable tasks.",
+    title: "Build healthy habits that last a lifetime.",
   },
 
   {
@@ -70,7 +70,7 @@ export const WithFitLint = [
   {
     id: 4,
     icon: { check },
-    title: "Know what works best for you.",
+    title: "Stay motivated with our community support.",
   },
 ];
 
@@ -78,7 +78,7 @@ export const Routines = [
   {
     id: 1,
     title: "Walking",
-    description: "Track your steps",
+    description: "Step up your fitness",
     value: "5,000 steps",
     image:  walking ,
     visible: true
@@ -87,8 +87,8 @@ export const Routines = [
   {
     id: 2,
     title: "Running",
-    description: "Set your target",
-    value: "7,000",
+    description: "Hit your stride",
+    value: "5,000 meters",
     image: ruuner,
     visible: true
   },
@@ -96,8 +96,8 @@ export const Routines = [
   {
     id: 3,
     title: "Bike",
-    description: "How fast can you go?",
-    value: "5,000",
+    description: "Pedal to your goals",
+    value: "17,000 meters",
     image: biker,
     visible: true
   },
@@ -105,8 +105,8 @@ export const Routines = [
   {
       id: 4,
     title: "Swimming",
-    description: "Beat your current score",
-    value: "150 minutes",
+    description: "Dive into fitness",
+    value: "15 minutes",
     image: swimmer,
     visible: false
   },
@@ -150,7 +150,7 @@ export const FooterLinks = [
 
   {
     title: "location",
-    links: "No. 101 Gbjikdjd Texas, United States of America",
+    links: "No. 101 Gbjikdjd Texes, Fitness City, Fit-Island.",
   },
 
   {

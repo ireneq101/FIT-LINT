@@ -6,7 +6,6 @@ import {close, menu} from '../assets';
 import style from "../styles";
 import { Navlinks } from '../constants';
 import SignUpModal from "./SignUpModal";
-// import LogInModal from "./LogInModal";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)

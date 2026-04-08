@@ -17,7 +17,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left Side: Text Content */}
           <div className="space-y-8">
-            <p className="text-xl md:text-2xl leading-relaxed text-white">
+            <p className="text-xl md:text-2xl leading-snug text-white">
               Lorem Ipsum Dolor Sit Amet <br />
               Consectetur, Adipisicing Elit. <br />
               Hic Fuga Cumque Distinctio Sunt. <br />
@@ -25,10 +25,11 @@ const About = () => {
               Mollitia, Accusantium? Lorem Ipsum <br />
               Dolor Sit Amet Consectetur, <br />
               Adipisicing Elit.
-              {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Deleniti officia, quam vitae animi sit aperiam nam quaerat aliquid 
-              perspiciatis. */}
+              Lorem <br />ipsum dolor sit amet consectetur adipisicing elit. <br /> 
+              Deleniti officia, quam vitae animi <br />aperiam nam quaerat aliquid 
+              perspiciatis.
             </p>
+            
 
             <Button text="Join Fit-Lint" onClick={() => console.log("joined")} />
             
@@ -42,12 +43,12 @@ const About = () => {
             </div>
 
             {/* Top Image */}
-            <div className="absolute left-1/3 top-0 w-1/2 h-2/4 aspect-square rounded-[3.5rem] overflow-hidden z-20">
+            <div className="absolute left-1/3 top-0 w-50 h-2/4 aspect-square rounded-[3.5rem] overflow-hidden z-20">
               <img src={machine} alt="Gym" className="w-full h-full object-cover" />
             </div>
 
             {/* Bottom Image */}
-            <div className="absolute left-1/3 bottom-0 w-1/2 h-2/4 aspect-square rounded-[3.5rem] overflow-hidden z-20">
+            <div className="absolute left-1/3 bottom-0 w-50 h-2/4 aspect-square rounded-[3.5rem] overflow-hidden z-20">
               <img src={pushup} alt="Workout" className="w-full h-full object-cover" />
             </div>
 

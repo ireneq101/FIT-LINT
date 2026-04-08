@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row gap-10 mb-10">
 
           {/* Fit-Lint Links */}
-          <div className="sm:w-40">
+          <div className="sm:w-38">
             <h2 className="text-2xl  md:text-3xl font-bold mb-4">Fit-Lint</h2>
             <ul className="space-y-3 text-gray-300 text-lg md:text-xl">
               <li className="hover:text-green-400 transition-colors cursor-pointer">About</li>
@@ -22,11 +22,10 @@ const Footer = () => {
           </div>
 
           {/* Location */}
-          <div className="sm:w-66">
+          <div className="sm:w-60">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">Location</h2>
             <p className="text-gray-300 text-lg md:text-xl leading-relaxed">
-              No. 101 Gbajmdjh Texas, <br />
-              United State Of American.
+              No. 101 Gbjikdjd Texes, <br /> Fitness City, Fit-Island.
             </p>
           </div>
 
@@ -42,9 +41,9 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="EMAIL ADDRESS"
-                className="bg-transparent flex-1 text-sm text-gray-300 placeholder-gray-500 outline-none py-2"
+                className="bg-transparent flex-1 text-[0.8rem] md:text-sm text-gray-300 placeholder-gray-500 outline-none py-2"
               />
-              <button className="bg-green-500 hover:bg-green-600 text-white text-xs font-semibold rounded-full px-4 py-2 transition-colors cursor-pointer whitespace-nowrap">
+              <button className="bg-green-500 hover:bg-green-600 text-white text-[0.7rem] md:text-xs font-semibold rounded-full px-4 py-2 transition-colors cursor-pointer whitespace-nowrap">
                 SEND EMAIL
               </button>
             </div>
@@ -95,7 +94,7 @@ const Footer = () => {
           </div>
 
           {/* Copyright */}
-          <p className="text-gray-400 text-sm">All Right Reserve 2025</p>
+          <p className="text-gray-400 text-sm">All Right Reserve 2026</p>
 
         </div>
 
