@@ -37,13 +37,13 @@ const Footer = () => {
             </p>
 
             {/* Email Input */}
-            <div className="flex items-center bg-[#111d3e] rounded-full overflow-hidden px-6 py-3">
+            <div className="flex items-center bg-[#111d3e] rounded-full overflow-hidden px-5 py-3">
               <input
                 type="email"
                 placeholder="EMAIL ADDRESS"
-                className="bg-transparent flex-1 text-[0.8rem] md:text-sm text-gray-300 placeholder-gray-500 outline-none py-2"
+                className="bg-transparent flex-1 text-[0.5rem] md:text-sm text-gray-300 placeholder-gray-500 outline-none py-2"
               />
-              <button className="bg-green-500 hover:bg-green-600 text-white text-[0.7rem] md:text-xs font-semibold rounded-full px-4 py-2 transition-colors cursor-pointer whitespace-nowrap">
+              <button className="bg-green-500 hover:bg-green-600 text-white text-[0.5rem] md:text-xs font-semibold rounded-full px-3 py-2 transition-colors cursor-pointer whitespace-nowrap">
                 SEND EMAIL
               </button>
             </div>
